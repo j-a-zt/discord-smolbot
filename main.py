@@ -5,7 +5,7 @@ from token_settings import *
 
 intents = discord.Intents.all()
 bot = commands.Bot(command_prefix='!', intents=intents)
-
+print('aa')
 @bot.event
 async def on_message(message):
     if message.author == bot.user:
